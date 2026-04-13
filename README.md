@@ -1,25 +1,21 @@
-# MERN Practical – Authentication & Testing
+# Practical 8 FSD
 
-This is the backend implementation for Full Stack Development Practical 8. It features JSON Web Token (JWT) authentication, file uploads, a mock payment system, and RESTful API architecture.
+This is my backend project for Full Stack Development Practical 8. 
 
-## Features Covered
-- **JWT Authentication**: Secure registration and login flow with password hashing using `bcryptjs`.
-- **Protected Routes**: Custom middleware verifying JWT token integrity across restricted API endpoints.
-- **Image Uploads**: Form-data handling managed safely with `multer`.
-- **Mock Payment API**: Standardized endpoint evaluating mock transactions.
-- **Modular Project Structure**: Complete separation of concerns (Models, Configs, Contexts, Midddlewares).
+## Requirements Completed
+- JWT Authentication (Register/Login)
+- Image Upload using Multer
+- Mock Payment API
+- Tested on Postman & MongoDB
 
-## Installation & Setup
-
-1. Make sure you have latest **Node.js** and **MongoDB** installed successfully on your machine.
-2. Install the necessary dependencies:
+## How to run
+1. Open terminal and install packages:
    ```bash
    npm install
    ```
-3. Run the development server (MongoDB must be running locally):
+2. Start the local server:
    ```bash
-   npm run dev
+   node index.js
    ```
 
-## Testing Evidence
-All screenshots proving operational success inside Postman and MongoDB Compass are permanently archived inside the `Testing_Evidence` directory of this repository!
+*Note: Screenshots of my Postman testing and my database are placed inside the `Testing_Evidence` folder.*
